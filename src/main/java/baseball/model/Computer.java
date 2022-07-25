@@ -12,8 +12,7 @@ public class Computer {
     public Computer() {
         List<Integer> randomNumbers = Randoms.pickUniqueNumbersInRange(FROM,TO,COUNT);
 
-        ListIntegerToNumberballs util = new ListIntegerToNumberballs(randomNumbers);
-        numberBalls = util.result();
+        numberBalls = ListIntegerToNumberballs.convert(randomNumbers);
     }
 
     public NumberBalls getNumberBalls() {

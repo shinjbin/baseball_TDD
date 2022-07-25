@@ -12,7 +12,8 @@ public class ListIntegerToNumberballsTest {
 
     @Test
     public void 클래스의출력은NumberBalls() {
-        ListIntegerToNumberballs util = new ListIntegerToNumberballs(Arrays.asList(1,2,3));
-        Assertions.assertEquals(NumberBalls.class, util.result().getClass());
+        List<Integer> sample = Arrays.asList(1,2,3);
+        Assertions.assertEquals(NumberBalls.class, ListIntegerToNumberballs.
+                convert(sample).getClass());
     }
 }

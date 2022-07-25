@@ -8,13 +8,8 @@ import java.util.Iterator;
 import java.util.List;
 
 public class ListIntegerToNumberballs {
-    private final List<Integer> integerList;
 
-    public ListIntegerToNumberballs(List<Integer> integerList) {
-        this.integerList = integerList;
-    }
-
-    public NumberBalls result() {
+    public static NumberBalls convert(List<Integer> integerList) {
         List<NumberBall> numberBallList = new ArrayList<>();
         for (Integer integer : integerList) {
             numberBallList.add(new NumberBall(integer));
