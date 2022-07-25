@@ -24,7 +24,23 @@
   - 게임이 끝날 시 애플리케이션 종료와 다시 시작 중 선택.
   - 잘못된 값 입력 시 종료.
 
-
+## 코드 구성
+- Controller
+  - GameController
+  - InputController
+  - OutputController
+- model
+  - Computer
+  - Player
+  - NumberBall
+  - NumberBalls
+- view
+  - GameView
+- utils
+  - ListIntegerToNumberBalls
+  - StringToNumberBalls
+- Application
+- Referee
 ## 🔍 진행방식
 
 - 미션은 **기능 요구사항, 프로그래밍 요구사항, 과제 진행 요구사항** 세 가지로 구성되어 있다.
